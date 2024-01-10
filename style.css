@@ -1,0 +1,161 @@
+#style{
+    
+    padding:20px;
+    line-height: 10px;
+    color:white;
+    
+
+}
+#name{
+    color:white;
+    text-align:center;
+    justify-content: center;
+}
+#style1{
+    background-color:black;
+    margin:0;
+
+    padding:10px;
+    display: inline-block;
+
+}
+#exploring{
+    text-align:center;
+    align-items: flex-start;
+    color:white;
+    background-color: black;
+    border:5px;
+    border-radius: 30px;
+    border-color: brown;
+    margin:10px;
+    padding:1rem;
+    font-size: 2rem;
+}
+#border{
+    padding:20px;
+    margin:5rem solid white;
+    border:5rem solid black;
+    float:right;
+    
+
+}
+#features{
+    padding:30px;
+    background:black;
+    line-height: 10%;
+    margin:5px;
+    border:100px;
+    display:grid;
+    grid-template-rows:1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap:30px;
+    font-size: 1.5rem;
+    color:white; 
+
+}
+
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    text-align:center
+}
+
+.nav-links li {
+    padding: 0 15px;
+}
+
+.nav-links a {
+    color: var(--secondary);
+    text-decoration: none;
+    position: relative;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-links a::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: var(--secondary);
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.nav-links a:hover::before {
+    visibility: visible;
+    transform: scaleX(1);
+}
+.size{
+    font-size: 4rem;
+    
+}
+
+  #contact{
+    background-color: black;
+    color:white;
+    padding:20px solid red;
+    margin:20px;
+    border:5rem;
+  }
+  .footer{
+    color:white;
+  }
+  .heading{
+    color:red;
+    text-align:center;
+    font-size:50px;
+  }
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 15px; /* Adjust padding for smaller screens */
+    }
+
+
+
+    /* Adjust font sizes or other styles as needed for better readability */
+    .box {
+        padding: 15px;
+    }
+
+    .nav-links {
+        flex-direction: column; /* Change navigation links to a column on smaller screens */
+        text-align: cen;
+    }
+    
+
+
+    
+}
+.design{
+    background-color: black;
+}
+#box {
+    padding: 15px;
+    text-decoration-color: white;
+    text-align:left;
+    color:white;
+    background-color: black;
+    padding:25%;
+    margin:2px;
+    border:10px;
+
+}
+
+
+
+
+
+  
+
+
